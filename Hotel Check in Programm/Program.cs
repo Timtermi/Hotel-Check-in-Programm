@@ -26,11 +26,11 @@ namespace Hotel_Check_in_Programm
                 {
                     bool flag = false;
                     int index = 0;
-                    for (int i = 0; i < nn.Length; i++)
+                    for (int o = 0; o < nn.Length; o++)
                     {
-                        if (diff == nn[i])
+                        if (diff == nn[o])
                         {
-                            index = i;
+                            index = o;
                             flag = true;
                         }
                     }
